@@ -1,0 +1,25 @@
+p:first-child {
+  color: red;
+}
+
+p:last-child {
+  color: green;
+}
+
+li:nth-last-child(4) {
+  color: rgb(217, 131, 18);
+}
+
+li:nth-last-child(2) {
+  color: red;
+}
+
+p:only-child {
+  color: blue;
+}
+
+p:not(.padrao) {
+  /* todos que não forem da classe padrão serão estilizados na cor que eu determinar, as li não estão inclusas por serem classes diferentes.*/
+
+  color: blueviolet;
+}
